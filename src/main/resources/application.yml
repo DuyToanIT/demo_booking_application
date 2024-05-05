@@ -1,0 +1,20 @@
+spring:
+    application:
+        name: "HotelBooking"
+    datasource:
+        driverClassName: com.mysql.cj.jdbc.Driver
+        url: "jdbc:mysql://localhost:3306/hotel_booking_demo_db?createDatabaseIfNotExist=true"
+        username: root
+        password: Abc1234!
+    jpa:
+        properties:
+          hibernate:
+              dialect: org.hibernate.dialect.MySQLDialect
+        show-sql: false
+    # Flyway configuration
+    flyway:
+        enabled: true
+        locations: classpath:db/migration
+        baselineOnMigrate: true
+        schemas: hotel_booking_demo_db
+

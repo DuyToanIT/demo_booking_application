@@ -1,0 +1,7 @@
+spring:
+  datasource:
+    driverClassName: com.mysql.cj.jdbc.Driver
+    url: "jdbc:mysql://127.0.0.1:3306/hotel_booking_demo_db?createDatabaseIfNotExist=true"
+    username: root
+    password: Abc1234!
+
