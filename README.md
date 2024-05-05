@@ -10,8 +10,12 @@ Requirements:
 API contract:
 http://localhost:8080/swagger-ui/index.html
 
+1. Search hotel
+2. Create booking
+3. Update booking
+4. Cancel booking
+5. Find booking by id
+6. Find list bookings by user
 
+![API](https://drive.usercontent.google.com/download?id=1KQYFI4J0gsPkhPwUL8qUS_12YC_Hs-Qv&export=download&authuser=0)
 
-
-
-![Screen Shot 2024-05-05 at 18.19.23.png](..%2F..%2FDesktop%2FScreen%20Shot%202024-05-05%20at%2018.19.23.png)
